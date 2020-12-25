@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="./assets/xkdc.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="xkdc 2.0"/>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="toggle-dark.css" />
+    <script type="text/javascript" src="./bundle.js" async></script>
+    <title>xkdc 2.0</title>
+</head>
+<body>
+    <div class='heading-wrapper'>
+        <h1><a id='heading' href="/" style="text-decoration: none">xkdc 2.0</a></h1>
+        <p id='sub-heading'>presented by <span class='company-name'>Cyber City Comics</span></p>
+        <div class="toggleWrapper">
+            <input type="checkbox" id="dark-mode-toggle"/>
+            <label for="dark-mode-toggle" class="toggle">
+            <span class="toggle-handler">
+                <span class="crater crater--1"></span>
+                <span class="crater crater--2"></span>
+                <span class="crater crater--3"></span>
+            </span>
+            <span class="star star--1"></span>
+            <span class="star star--2"></span>
+            <span class="star star--3"></span>
+            <span class="star star--4"></span>
+            <span class="star star--5"></span>
+            <span class="star star--6"></span>
+            </label>
+        </div>
+    </div>
+    <h1 id='comic-title'></h1>
+    <div class='img-wrapper'>
+        <img id='comic-img'>
+        <p id='date'></p>
+        <div class='view-count-wrapper'>
+            <img class='icons' id='view-icon' src='./assets/view.svg'>
+            <p id='view-count'></p>
+        </div>
+    </div>
+    <div class='nav-wrapper'>
+        <button id='button-prev' class='comic-nav'>
+            <img class='icons' src='./assets/left-arrow.svg'/>
+            <span class='nav-text'>Prev</span>
+        </button>
+        <button id='button-random' class='comic-nav'>
+            <img class='icons' src='./assets/random.svg'/>
+        </button>
+        <button id='button-next' class='comic-nav'>
+            <span id='button-next' class='nav-text'>Next</span>
+            <img class='icons' src='./assets/right-arrow.svg'/>
+        </button>
+    </div>
+    <div class='transcript-wrapper'>
+        <h2 id='transcript-title'>Transcript:</h2>
+        <p id='transcript-desc'></p>
+    </div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+</body>
+</html>
