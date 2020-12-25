@@ -73,11 +73,13 @@ body {
 }
 
 .view-count-wrapper {
-    width: 35px;
     height: 22px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+}
+
+#view-icon {
+    margin-right: 4px;
 }
 
 #view-count {
