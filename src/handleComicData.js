@@ -69,7 +69,7 @@ function setTranscript({ transcript }) {
     newTranscript = newTranscript.replace(/\((\(.+?\))\)/gi, '$1'); // Replace double braces with single braces
     newTranscript = newTranscript.replace(/\{\{(.+)\}\}/gi, '$1'); // Gets rid of curly brackets
     newTranscript = newTranscript.replace(
-        /\n ([0-9a-z\.\!\?]+)|\n([0-9a-z\.\!\?]+)/g,
+        /\n ([0-9a-z\.\!\?\,]+)|\n([0-9a-z\.\!\?\,]+)/g,
         ' $1$2'
     ); // Removes unnecessary line-breaks
     newTranscript = newTranscript
