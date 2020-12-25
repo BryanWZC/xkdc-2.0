@@ -2,7 +2,7 @@
 By: Bryan Wong
 &nbsp;
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](TOCHANGE)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://xkdc.herokuapp.com/)
 
 ## Objective:
 Create a web server hosted on Heroku that serves web pages that display xkcd web comic strips.
